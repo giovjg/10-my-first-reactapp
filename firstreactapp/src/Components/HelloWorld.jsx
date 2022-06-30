@@ -1,10 +1,10 @@
 import React from 'react';
 // declare component
 
-function HelloWorld() {
+function HelloWorld(props) {
 
     return (
-      <h1>Hello Giov!</h1>);
+      <h1>Hello {props.name}!</h1>);
 }
 
 export default HelloWorld ;
