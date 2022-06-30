@@ -1,5 +1,5 @@
 import React from 'react';
-// declare component
+//declare component
 
 function HelloWorld(props) {
 
