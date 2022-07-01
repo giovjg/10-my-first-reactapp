@@ -3,9 +3,9 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <h1>Header</h1>
+      <h1>Appname</h1>
     </header>
   );
 }
 
-export default App
+export default Header;
