@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <HelloWorld name="Giov" />
+      <HelloWorld name="Milan" />
       {/* <CounterExample/>*/}
       <Footer/>
       </div>
