@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import './App.css';
 import HelloWorld from './Components/HelloWorld';
-import CounterExample from './Components/CounterExample';
+//import CounterExample from './Components/CounterExample';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
@@ -11,6 +11,7 @@ function App() {
       <Header/>
       <HelloWorld name="Giov" />
       {/* <CounterExample/>*/}
+      <Footer/>
       </div>
   );
 }
