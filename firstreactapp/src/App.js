@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
+import React, { Component }  from 'react';
 import HelloWorld from './Components/HelloWorld';
 //import CounterExample from './Components/CounterExample';
 import Header from './Components/Header';
@@ -11,7 +12,7 @@ function App() {
     <div>
       <Header/>
       <HelloWorld name="Milan" />
-      {/* <CounterExample/>*/}
+
       <Footer/>
       </div>
   );
