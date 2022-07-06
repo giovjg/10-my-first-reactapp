@@ -11,11 +11,12 @@ function App() {
   return (
     <div>
       <Header/>
-      <HelloWorld name="Milan !!!" />
+      {/*<HelloWorld name="Milan !!!" /> */}
+      <CounterExample/>
 
       <Footer/>
       </div>
   );
 }
 
-export default App;// this is being used by another , into the index file
+export default App;// this is being used by another file , the index.js file
