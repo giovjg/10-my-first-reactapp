@@ -1,6 +1,6 @@
 // import logo from './logo.svg'; // look in the same directory cause ./logo.svg is relative to the current file
 // import './App.css';
-import React, { Component }  from 'react'; // this is a module from node_modules folder
+import React from 'react'; // this is a module from node_modules folder
 import HelloWorld from './Components/HelloWorld';
 //import CounterExample from './Components/CounterExample';
 import Header from './Components/Header';
@@ -11,8 +11,8 @@ function App() {
   return (
     <div>
       <Header/>
-      {/*<HelloWorld name="Milan !!!" /> */}
-      <CounterExample/>
+      <HelloWorld name="Milan !!!" />
+      {/*<CounterExample/>*/}
 
       <Footer/>
       </div>

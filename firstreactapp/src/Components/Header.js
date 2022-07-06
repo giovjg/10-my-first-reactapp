@@ -3,9 +3,9 @@ import Navigation from './Navigation';
 
 function Header() {
   return (
-    <header className="border-b p-3 flex justify-between items-center">
+    <header className="border-b p-3 flex justify-between">
       <span className ="font-bold">
-        Appname
+         Appname
       </span>
       <Navigation/>
     </header>
